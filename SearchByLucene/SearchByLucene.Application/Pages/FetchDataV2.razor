@@ -1,0 +1,67 @@
+﻿@page "/fetchdataV2"
+
+<PageTitle>Massa de Teste</PageTitle>
+
+@using SearchByLucene.DTO.CSV;
+@using SearchByLucene.Service.Data;
+@using SearchByLucene.Service.Interfaces;
+@inject ISearchEngineMCSmallDataService SearchV2Service
+
+<h1>Massa de Teste Atual</h1>
+
+<p>Todos os resultados da busca são baseados nessa massa de teste.</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>SKU</th>
+            <th>Produto</th>
+            <th>Fabricante</th>
+            <th>CodFabricante</th>
+            <th>CodMercadocar</th>
+            <th>CodReferencia</th>
+            <th>Montadora</th>
+            <th>Veiculo</th>
+            <th>Modelo</th>
+            <th>Versao</th>
+            <th>Motor</th>
+            <th>Valvula</th>
+            <th>Cilindrada</th>
+            <th>AnoInicio</th>
+            <th>AnoFim</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var document in documents)
+        {
+            <tr>
+                <td>@document.SKU</td>
+                <td>@document.Produto</td>
+                <td>@document.Fabricante</td>
+                <td>@document.CodFabricante</td>
+                <td>@document.CodMercadocar</td>
+                <td>@document.CodReferencia</td>
+                <td>@document.Montadora</td>
+                <td>@document.Veiculo</td>
+                <td>@document.Modelo</td>
+                <td>@document.Versao</td>
+                <td>@document.Motor</td>
+                <td>@document.Valvula</td>
+                <td>@document.Cilindrada</td>
+                <td>@document.AnoInicio</td>
+                <td>@document.AnoFim</td>
+                <td>@document.Produto</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@code {
+    private List<CSVMCSmallDataDTO> documents = new List<CSVMCSmallDataDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        documents = SearchV2Service.Search(new DTO.FilterParam() { Limite = 1000 });
+    }
+}

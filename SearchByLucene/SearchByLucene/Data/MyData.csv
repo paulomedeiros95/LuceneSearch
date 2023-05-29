@@ -1,0 +1,151 @@
+SKU;Veiculo;Modelo;Versao;Motor;Valvula;Cilindrada;AnoInicio;AnoFim;Produto
+1;Corsa  Hatch;Wind  ;G1;EFI  ;;1.0;1994;2002;Automóvel
+2;Corsa  Hatch;Wind Super ;G1;EFI  ;;1.0;1995;1995;Automóvel
+3;Corsa  Hatch;Wind  ;G1;MPFI  ;;1.0;1996;2002;Automóvel
+4;Corsa  Hatch;Wind Champ Série especial;G1;EFI  ;;1.0;1995;1995;Automóvel
+5;Corsa  Hatch;Super  ;G1;MPFI  ;8;1.0;1996;2000;Automóvel
+6;Corsa  Hatch;Super  ;G1;MPFI  ;16;1.0;1999;2002;Automóvel
+7;Corsa  Hatch;GL  ;G1;EFI ;;1.4;1995;1999;Automóvel
+8;Corsa  Hatch;GSi  ;G1;EFI  ;;1.0;1995;1996;Automóvel
+9;Corsa  Hatch;Piquet  ;G1;MPFI  ;;1.0;1997;1997;Automóvel
+10;Corsa  Hatch;Champ98  ;G1;EFI  ;;1.0;1998;1998;Automóvel
+11;Corsa  Hatch;GLS  ;G1;EFI  ;;1.0;1998;2002;Automóvel
+12;Corsa  Hatch;Millenium  ;G1;EFI  ;;1.0;2000;2002;Automóvel
+13;Corsa  Hatch;;;;;;;;Automóvel
+14;Corsa  Hatch;;;;;;;;Automóvel
+15;Corsa  Hatch;;;;;;;;Automóvel
+16;Corsa  Hatch;;;;;;;;Automóvel
+17;Corsa  Hatch;;;;;;;;Automóvel
+18;HB20;Diamond;GTI;EFI  ;;1.0;2019;2019;Automóvel
+19;HB20;Diamond;GTI;EFI  ;;1.0;2020;2021;Automóvel
+20;HB20;Diamond;GTI;EFI  ;;1.0;2015;2021;Automóvel
+21;Corsa  Hatch;Wind  ;G1;EFI  ;;1.0;1994;2002;Pneu 175/70 R15
+22;HB20;Diamond;GTI;EFI  ;;1.0;2019;2019;Amortecedor dianteiro
+23;Corsa  Hatch;Super  ;G1;MPFI  ;8;1.0;1996;2000;Freio a disco
+24;Corsa  Hatch;GLS  ;G1;EFI  ;;1.0;1998;2002;Lanterna traseira
+25;Corsa  Hatch;Joy  ;G1;EFI  ;;1.0;2003;2007;Filtro de ar
+26;Corsa  Hatch;Maxx  ;G1;EFI  ;;1.0;2008;2010;Bateria automotiva
+27;Corsa  Hatch;Premium  ;G1;EFI  ;;1.0;2011;2014;Correia dentada
+28;Corsa  Hatch;Sedan  ;G1;EFI  ;;1.0;2015;2018;Óleo de motor
+29;HB20;Diamond;GTI;EFI  ;;1.0;2020;2021;Pneu 175/70 R15
+30;HB20;Diamond;GTI;EFI  ;;1.0;2015;2021;Amortecedor dianteiro
+31;Corsa  Hatch;Wind  ;G1;MPFI  ;;1.0;1996;2002;Freio a disco
+32;Corsa  Hatch;Wind Super ;G1;EFI  ;;1.0;1995;1995;Lanterna traseira
+33;Corsa  Hatch;Wind  ;G1;EFI  ;;1.0;1994;2002;Filtro de ar
+34;Corsa  Hatch;Wind Champ Série especial;G1;EFI  ;;1.0;1995;1995;Bateria automotiva
+35;Corsa  Hatch;Super  ;G1;MPFI  ;8;1.0;1996;2000;Correia dentada
+36;Corsa  Hatch;Super  ;G1;MPFI  ;16;1.0;1999;2002;Óleo de motor
+37;Corsa  Hatch;GL  ;G1;EFI ;;1.4;1995;1999;Pneu 175/70 R15
+38;Corsa  Hatch;GSi  ;G1;EFI  ;;1.0;1995;1996;Amortecedor dianteiro
+39;Corsa  Hatch;Piquet  ;G1;MPFI  ;;1.0;1997;1997;Freio a disco
+40;Corsa  Hatch;Champ98  ;G1;EFI  ;;1.0;1998;1998;Lanterna traseira
+41;Corsa  Hatch;GLS  ;G1;EFI  ;;1.0;1998;2002;Filtro de ar
+42;Corsa  Hatch;Millenium  ;G1;EFI  ;;1.0;2000;2002;Bateria automotiva
+43;Corsa  Hatch;Joy  ;G1;EFI  ;;1.0;2003;2007;Correia dentada
+44;Corsa  Hatch;Maxx  ;G1;EFI  ;;1.0;2008;2010;Óleo de motor
+45;Corsa  Hatch;Premium  ;G1;EFI  ;;1.0;2011;2014;Pneu 175/70 R15
+46;Corsa  Hatch;Sedan  ;G1;EFI  ;;1.0;2015;2018;Amortecedor dianteiro
+47;Corsa  Hatch;Hatch  ;G1;EFI  ;;1.0;2019;2021;Freio a disco
+48;HB20;Diamond;GTI;EFI  ;;1.0;2019;2019;Lanterna traseira
+49;HB20;Diamond;GTI;EFI  ;;1.0;2020;2021;Filtro de ar
+50;HB20;Diamond;GTI;EFI  ;;1.0;2015;2021;Bateria automotiva
+51;Corsa  Hatch;Wind  ;G1;EFI  ;;1.0;1994;2002;Correia dentada
+52;Corsa  Hatch;Wind Super ;G1;EFI  ;;1.0;1995;1995;Óleo de motor
+53;Corsa  Hatch;Wind  ;G1;MPFI  ;;1.0;1996;2002;Pneu 175/70 R15
+54;Corsa  Hatch;Wind Champ Série especial;G1;EFI  ;;1.0;1995;1995;Amortecedor dianteiro
+55;Corsa  Hatch;Super  ;G1;MPFI  ;8;1.0;1996;2000;Freio a disco
+56;Corsa  Hatch;Super  ;G1;MPFI  ;16;1.0;1999;2002;Lanterna traseira
+57;Corsa  Hatch;GL  ;G1;EFI ;;1.4;1995;1999;Filtro de ar
+58;Corsa  Hatch;GSi  ;G1;EFI  ;;1.0;1995;1996;Bateria automotiva
+59;Corsa  Hatch;Piquet  ;G1;MPFI  ;;1.0;1997;1997;Correia dentada
+60;Corsa  Hatch;Champ98  ;G1;EFI  ;;1.0;1998;1998;Óleo de motor
+61;Corsa  Hatch;GLS  ;G1;EFI  ;;1.0;1998;2002;Pneu 175/70 R15
+62;Corsa  Hatch;Millenium  ;G1;EFI  ;;1.0;2000;2002;Amortecedor dianteiro
+63;Corsa  Hatch;Joy  ;G1;EFI  ;;1.0;2003;2007;Freio a disco
+64;Corsa  Hatch;Maxx  ;G1;EFI  ;;1.0;2008;2010;Lanterna traseira
+65;Corsa  Hatch;Premium  ;G1;EFI  ;;1.0;2011;2014;Filtro de ar
+66;Corsa  Hatch;Sedan  ;G1;EFI  ;;1.0;2015;2018;Bateria automotiva
+67;Corsa  Hatch;Hatch  ;G1;EFI  ;;1.0;2019;2021;Correia dentada
+68;HB20;Diamond;GTI;EFI  ;;1.0;2019;2019;Óleo de motor
+69;HB20;Diamond;GTI;EFI  ;;1.0;2020;2021;Pneu 175/70 R15
+70;HB20;Diamond;GTI;EFI  ;;1.0;2015;2021;Amortecedor dianteiro
+71;Corsa  Hatch;Wind  ;G1;EFI  ;;1.0;1994;2002;Freio a disco
+72;Corsa  Hatch;Wind Super ;G1;EFI  ;;1.0;1995;1995;Lanterna traseira
+73;Corsa  Hatch;Wind  ;G1;MPFI  ;;1.0;1996;2002;Filtro de ar
+74;Corsa  Hatch;Wind Champ Série especial;G1;EFI  ;;1.0;1995;1995;Bateria automotiva
+75;Corsa  Hatch;Super  ;G1;MPFI  ;8;1.0;1996;2000;Correia dentada
+76;Corsa  Hatch;Super  ;G1;MPFI  ;16;1.0;1999;2002;Óleo de motor
+77;Corsa  Hatch;GL  ;G1;EFI ;;1.4;1995;1999;Pneu 175/70 R15
+78;Corsa  Hatch;GSi  ;G1;EFI  ;;1.0;1995;1996;Amortecedor dianteiro
+79;Corsa  Hatch;Piquet  ;G1;MPFI  ;;1.0;1997;1997;Freio a disco
+80;Corsa  Hatch;Champ98  ;G1;EFI  ;;1.0;1998;1998;Lanterna traseira
+81;Corsa  Hatch;GLS  ;G1;EFI  ;;1.0;1998;2002;Filtro de ar
+82;Corsa  Hatch;Millenium  ;G1;EFI  ;;1.0;2000;2002;Bateria automotiva
+83;Corsa  Hatch;Joy  ;G1;EFI  ;;1.0;2003;2007;Correia dentada
+84;Corsa  Hatch;Maxx  ;G1;EFI  ;;1.0;2008;2010;Óleo de motor
+85;Corsa  Hatch;Premium  ;G1;EFI  ;;1.0;2011;2014;Pneu 175/70 R15
+86;Corsa  Hatch;Sedan  ;G1;EFI  ;;1.0;2015;2018;Amortecedor dianteiro
+87;Corsa  Hatch;Hatch  ;G1;EFI  ;;1.0;2019;2021;Freio a disco
+88;HB20;Diamond;GTI;EFI  ;;1.0;2019;2019;Lanterna traseira
+89;HB20;Diamond;GTI;EFI  ;;1.0;2020;2021;Filtro de ar
+90;HB20;Diamond;GTI;EFI  ;;1.0;2015;2021;Bateria automotiva
+91;Corsa  Hatch;Wind  ;G1;EFI  ;;1.0;1994;2002;Correia dentada
+92;Corsa  Hatch;Wind Super ;G1;EFI  ;;1.0;1995;1995;Óleo de motor
+93;Corsa  Hatch;Wind  ;G1;MPFI  ;;1.0;1996;2002;Pneu 175/70 R15
+94;Corsa  Hatch;Wind Champ Série especial;G1;EFI  ;;1.0;1995;1995;Amortecedor dianteiro
+95;Corsa  Hatch;Super  ;G1;MPFI  ;8;1.0;1996;2000;Freio a disco
+96;Corsa  Hatch;Super  ;G1;MPFI  ;16;1.0;1999;2002;Lanterna traseira
+97;Corsa  Hatch;GL  ;G1;EFI ;;1.4;1995;1999;Filtro de ar
+98;Corsa  Hatch;GSi  ;G1;EFI  ;;1.0;1995;1996;Bateria automotiva
+99;Corsa  Hatch;Piquet  ;G1;MPFI  ;;1.0;1997;1997;Correia dentada
+100;Corsa  Hatch;Champ98  ;G1;EFI  ;;1.0;1998;1998;Óleo de motor
+101;Chevrolet Corsa;Corsa;LS;1.0;8;999;2001;2001;Pastilha de Freio
+102;Chevrolet Corsa;Corsa;LS;1.0;8;999;2001;2001;Disco de Freio
+103;Chevrolet Corsa;Corsa;LS;1.0;8;999;2001;2001;Filtro de Ar
+104;Hyundai HB20;HB20;Comfort;1.0;12;998;2019;2019;Amortecedor Dianteiro
+105;Hyundai HB20;HB20;Comfort;1.0;12;998;2019;2019;Pastilha de Freio
+106;Hyundai HB20;HB20;Comfort;1.0;12;998;2019;2019;Disco de Freio
+107;Fiat Palio;Palio;Fire;1.0;8;999;2005;2005;Bomba D'água
+108;Fiat Palio;Palio;Fire;1.0;8;999;2005;2005;Correia Dentada
+109;Fiat Palio;Palio;Fire;1.0;8;999;2005;2005;Velas de Ignição
+110;Volkswagen Gol;Gol;G4;1.0;8;999;2013;2013;Alternador
+111;Volkswagen Gol;Gol;G4;1.0;8;999;2013;2013;Bateria
+112;Volkswagen Gol;Gol;G4;1.0;8;999;2013;2013;Filtro de Combustível
+113;Ford Fiesta;Fiesta;Supercharger;1.0;16;998;2008;2008;Radiador
+114;Ford Fiesta;Fiesta;Supercharger;1.0;16;998;2008;2008;Ventoinha
+115;Ford Fiesta;Fiesta;Supercharger;1.0;16;998;2008;2008;Bomba de Combustível
+116;Peugeot 207;207;XR;1.4;8;1360;2010;2010;Rolamento de Roda
+117;Peugeot 207;207;XR;1.4;8;1360;2010;2010;Cabo de Vela
+118;Peugeot 207;207;XR;1.4;8;1360;2010;2010;Filtro de Óleo
+119;Volkswagen Gol;Gol;G3;1.0;8;999;2003;2003;Amortecedor Traseiro
+120;Chevrolet Corsa;Corsa;LS;1.0;8;999;2002;2002;Pastilha de Freio
+121;Fiat Palio;Palio;Fire;1.0;8;999;2004;2004;Lanterna Traseira
+122;Hyundai HB20;HB20;Comfort;1.0;12;998;2017;2017;Filtro de Óleo
+123;Volkswagen Gol;Gol;G4;1.0;8;999;2008;2008;Filtro de Ar;
+124;Ford Fiesta;Fiesta;Supercharger;1.0;16;998;2007;2007;Correia Dentada
+125;Ford Fiesta;Fiesta;Supercharger;1.0;16;998;2007;2007;Pastilha de Freio
+126;Peugeot 207;207;XR;1.4;8;1360;2009;2009;Bateria
+127;Peugeot 207;207;XR;1.4;8;1360;2009;2009;Velas de Ignição
+128;Chevrolet Corsa;Corsa;LS;1.0;8;999;2001;2001;Radiador
+129;Fiat Palio;Palio;Fire;1.0;8;999;2006;2006;Bomba de Direção Hidráulica
+130;Hyundai HB20;HB20;Comfort;1.0;12;998;2018;2018;Cabo de Vela
+131;Volkswagen Gol;Gol;G5;1.0;8;999;2011;2011;Pastilha de Freio
+132;Ford Fiesta;Fiesta;Supercharger;1.0;16;998;2009;2009;Filtro de Combustível
+133;Peugeot 207;207;XR;1.4;8;1360;2011;2011;Filtro de Ar
+134;BMW;207;XR;1.4;8;1360;2011;2011;Alavanca Freio de Mão
+135;Toyota;Corolla;XEI;2.0;16;1987;2005;2005;Barra Estabilizadora
+136;Volkswagen;Jetta;Comfortline;2.0;8;1984;2009;2009;Filtro de Cabine
+137;Honda;Civic;LX;1.7;16;1668;2000;2000;Disco de Freio
+138;Mitsubishi;Lancer;ES;2.0;16;1998;2011;2011;Filtro de Ar do Motor
+139;Audi;A3;Sportback;1.4;16;1395;2015;2015;Alça de Teto
+140;Mercedes;C200;Avantgarde;2.0;16;1991;2010;2010;Cilindro Mestre
+141;Peugeot;308;Allure;1.6;16;1598;2013;2013;Protetor de Porta
+142;Ford;Focus;SE;2.0;16;1999;2006;2006;Bobina de Ignição
+143;Chevrolet;Prisma;LT;1.4;8;1389;2013;2013;Bendix Motor de Partida
+144;Fiat;Uno;Way;1.0;8;999;2010;2010;Automático do Motor de Partida
+145;Hyundai;i30;Premium;2.0;16;1999;2010;2010;Aspirador de Pó
+146;Volkswagen;Polo;Comfortline;1.6;16;1598;2018;2018;Motor de Partida Completo
+147;Ford;Ecosport;Freestyle;1.6;16;1596;2014;2014;Barra Axial
+148;Peugeot;3008;Griffe;1.6;16;1598;2018;2018;Servo Freio
+149;BMW;320i;Sport;2.0;16;1998;2019;2019;Calha de Chuva
+150;Toyota;Yaris;XL;1.3;16;1329;2018;2018;Alavanca da Maçaneta

@@ -1,0 +1,59 @@
+﻿@page "/search"
+@using SearchByLucene.DTO;
+@using SearchByLucene.DTO.CSV;
+@using SearchByLucene.Service.Interfaces;
+
+@inject ISearchEngineMyDataService SearchService
+
+<PageTitle>Nova Busca</PageTitle>
+
+<h1>Filtrar por:</h1>
+<EditForm Model="filterParam" OnSubmit=@(args => SearchByFilter())>
+    <input @bind="filterParam.FreeText" style="width:350px" placeholder="Digite sua consulta de busca..." />
+
+    <button class="btn btn-primary" @onclick="SearchByFilter">Buscar</button>
+</EditForm>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>SKU</th>
+            <th>Veiculo</th>
+            <th>Modelo</th>
+            <th>Versao</th>
+            <th>Motor</th>
+            <th>Valvula</th>
+            <th>Cilindrada</th>
+            <th>AnoInicio</th>
+            <th>AnoFim</th>
+            <th>Produto</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var document in documents)
+        {
+            <tr>
+                <td>@document.SKU</td>
+                <td>@document.Veiculo</td>
+                <td>@document.Modelo</td>
+                <td>@document.Versao</td>
+                <td>@document.Motor</td>
+                <td>@document.Valvula</td>
+                <td>@document.Cilindrada</td>
+                <td>@document.AnoInicio</td>
+                <td>@document.AnoFim</td>
+                <td>@document.Produto</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    List<CSVMyDataDTO> documents = new List<CSVMyDataDTO>();
+    FilterParam filterParam = new FilterParam();
+
+    private void SearchByFilter()
+    {
+        documents = SearchService.Search(filterParam);
+    }
+}

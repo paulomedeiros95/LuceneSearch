@@ -1,0 +1,69 @@
+﻿@page "/searchV2"
+@using SearchByLucene.DTO;
+@using SearchByLucene.DTO.CSV;
+@using SearchByLucene.Service.Interfaces;
+
+@inject ISearchEngineMCSmallDataService SearchV2Service
+
+<PageTitle>Nova Busca</PageTitle>
+
+<h1>Filtrar por:</h1>
+<EditForm Model="filterParam" OnSubmit=@(args => SearchByFilter())>
+    <input @bind="filterParam.FreeText" style="width:350px" placeholder="Digite sua consulta de busca..." />
+
+    <button class="btn btn-primary" @onclick="SearchByFilter">Buscar</button>
+</EditForm>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>SKU</th>
+            <th>Produto</th>
+            <th>Fabricante</th>
+            <th>CodFabricante</th>
+            <th>CodMercadocar</th>
+            <th>CodReferencia</th>
+            <th>Montadora</th>
+            <th>Veiculo</th>
+            <th>Modelo</th>
+            <th>Versao</th>
+            <th>Motor</th>
+            <th>Valvula</th>
+            <th>Cilindrada</th>
+            <th>AnoInicio</th>
+            <th>AnoFim</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var document in documents)
+        {
+            <tr>
+                <td>@document.SKU</td>
+                <td>@document.Produto</td>
+                <td>@document.Fabricante</td>
+                <td>@document.CodFabricante</td>
+                <td>@document.CodMercadocar</td>
+                <td>@document.CodReferencia</td>
+                <td>@document.Montadora</td>
+                <td>@document.Veiculo</td>
+                <td>@document.Modelo</td>
+                <td>@document.Versao</td>
+                <td>@document.Motor</td>
+                <td>@document.Valvula</td>
+                <td>@document.Cilindrada</td>
+                <td>@document.AnoInicio</td>
+                <td>@document.AnoFim</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    List<CSVMCSmallDataDTO> documents = new List<CSVMCSmallDataDTO>();
+    FilterParam filterParam = new FilterParam();
+
+    private void SearchByFilter()
+    {
+        documents = SearchV2Service.Search(filterParam);
+    }
+}
